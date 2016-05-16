@@ -1,5 +1,5 @@
 # data-team
-Require this module to quickly obtain a list of OSM usernames or OSM user IDs of the Mapbox Data Team.
+Quickly get a list of OSM usernames or OSM user IDs of the Mapbox Data Team using this module.
 
 You can also get mappings between usernames and user IDs
 
