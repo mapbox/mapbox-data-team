@@ -2,13 +2,14 @@
 
 var team = require('./data/team.js').team;
 
-function getData(returnField, searchField, value) {
+function getData(returnField, searchField, value, json) {
+    var teamJSON = json || team;
     if (!searchField) {
-        return team.map(function (member) {
+        return teamJSON.map(function (member) {
             return member[returnField];
         }).sort();
     } else {
-        return team.filter(function (member) {
+        return teamJSON.filter(function (member) {
             return (member[searchField] === value);
         }).map(function (member) {
             return member[returnField];
@@ -16,28 +17,28 @@ function getData(returnField, searchField, value) {
     }
 }
 
-function getUsernames() {
-    return getData('username');
+function getUsernames(json) {
+    return getData('username', null, null, json);
 }
 
-function getUserIds() {
-    return getData('uid');
+function getUserIds(json) {
+    return getData('uid', null, null, json);
 }
 
-function getUsernamesFor(field, value) {
-    return getData('username', field, value);
+function getUsernamesFor(field, value, json) {
+    return getData('username', field, value, json);
 }
 
-function getUserIdsFor(field, value) {
-    return getData('uid', field, value);
+function getUserIdsFor(field, value, json) {
+    return getData('uid', field, value, json);
 }
 
-function getNames() {
-    return getData('fullname');
+function getNames(json) {
+    return getData('fullname', null, null, json);
 }
 
-function getEverything() {
-    return team;
+function getEverything(json) {
+    return json || team;
 }
 
 module.exports = {
