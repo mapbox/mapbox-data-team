@@ -2,11 +2,23 @@
   "name": "data-team",
   "version": "0.1.0",
   "description": "Easily require OSM usernames and user IDs of the Mapbox Data Team",
-  "main": "index.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private":true,
+  "private": true,
   "author": "Mapbox",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tape": "^4.5.1"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/data-team.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mapbox/data-team/issues"
+  },
+  "homepage": "https://github.com/mapbox/data-team#readme"
 }
