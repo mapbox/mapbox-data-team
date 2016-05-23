@@ -137,7 +137,7 @@ module.exports = {
             'uid': '3572302',
             'fname': 'Maanya',
             'lname': 'Umashaanker',
-            'fullname': 'Manya Umashaanker'
+            'fullname': 'Maanya Umashaanker'
         },
         {
             'username': 'manings',
