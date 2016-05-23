@@ -126,11 +126,25 @@ module.exports = {
             'fullname': 'Luis Alanya Ortega'
         },
         {
+            'username': 'Maanya',
+            'uid': '3572302',
+            'fname': 'Maanya',
+            'lname': 'Umashaanker',
+            'fullname': 'Manya Umashaanker'
+        },
+        {
             'username': 'manings',
             'uid': '3272286',
             'fname': 'Maning',
             'lname': 'Sambale',
             'fullname': 'Maning Sambale'
+        },
+        {
+            'username': 'manoharuss',
+            'uid': '3769434',
+            'fname': 'Manohar',
+            'lname': 'Erikipati',
+            'fullname': 'Manohar Erikipati'
         },
         {
             'username': 'nammala',
