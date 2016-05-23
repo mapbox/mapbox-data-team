@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Easily require OSM usernames and user IDs of the Mapbox Data Team",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/test.js"
   },
   "author": "Mapbox",
   "license": "ISC",
