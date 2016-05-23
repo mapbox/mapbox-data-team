@@ -20,6 +20,7 @@ var allNames = dataTeam.getNames();
 var fullDataTeamInfo = dataTeam.getEverything();
 
 //Specific information
-var poornimaUserName = dataTeam.getUsernamesFor('fname', 'Poornima');
-var poornimaUserId = dataTeam.getUserIdsFor('fname', 'Poornima');
+var poornimaUserName = dataTeam.getUsernamesFor('fname', 'Poornima'); //OR dataTeam.getUsernamesFor('fname', 'poornima'); OR dataTeam.getUsernamesFor('fname', 'poORnimA'); 
+
+var poornimaUserId = dataTeam.getUserIdsFor('fname', 'Poornima'); //OR dataTeam.getUserIdsFor('fname', 'poornima'); OR dataTeam.getUserIdsFor('fname', 'PoORniMa');
 ```
