@@ -24,6 +24,13 @@ module.exports = {
             'fullname': 'Abhishek Saikia'
         },
         {
+            'username': 'ajithranka',
+            'uid': '3878839',
+            'fname': 'Ajith',
+            'lname': 'Ranka',
+            'fullname': 'Ajith Ranka'
+        },
+        {
             'username': 'lxbarth',
             'uid': '589596',
             'fname': 'Alex',
@@ -231,13 +238,6 @@ module.exports = {
             'fname': 'Srividya',
             'lname': 'Bharadwaj',
             'fullname': 'Srividya Bharadwaj'
-        },
-        {
-            'username': 'ajithranka',
-            'uid': '3878839',
-            'fname': 'Ajith',
-            'lname': 'Ranka',
-            'fullname': 'Ajith Ranka'
         }
     ]
 };
