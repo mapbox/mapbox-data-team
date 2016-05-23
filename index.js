@@ -10,7 +10,7 @@ function getData(returnField, searchField, value, json) {
         }).sort();
     } else {
         return teamJSON.filter(function (member) {
-            return (member[searchField] === value);
+            return (member[searchField].toLowerCase() === value.toLowerCase());
         }).map(function (member) {
             return member[returnField];
         }).sort();

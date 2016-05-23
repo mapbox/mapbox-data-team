@@ -28,6 +28,12 @@ test('#### getUserIdsFor(\'fname\',\'Oindrila\')', function (assert) {
     assert.end();
 });
 
+test('#### Lower case: getUserIdsFor(\'fname\',\'oindrila\')', function (assert) {
+    var userId = ['3057995'];
+    assert.deepEqual(team.getUserIdsFor('fname', 'oindrila', json.team), userId);
+    assert.end();
+});
+
 test('#### getEverything()', function (assert) {
     assert.deepEqual(team.getEverything(json.team), json.team);
     assert.end();
