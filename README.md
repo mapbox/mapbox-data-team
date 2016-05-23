@@ -13,8 +13,13 @@ Include
 
 ```
 var dataTeam = require('data-team');
-var usernames = dataTeam.usernames;
-var userIDs = dataTeam.IDs;
-var poornimaUserID = dataTeam.userIDFromUsername.poornibadrinath;
-var dataTeamMemberFromUserID = dataTeam.usernameFromUserID["2015224"];
+
+var allUsernames = dataTeam.getUsernames();
+var allUserIds = dataTeam.getUserIds();
+var allNames = dataTeam.getNames();
+var fullDataTeamInfo = dataTeam.getEverything();
+
+//Specific information
+var poornimaUserName = dataTeam.getUsernamesFor('fname', 'Poornima');
+var poornimaUserId = dataTeam.getUserIdsFor('fname', 'Poornima');
 ```
