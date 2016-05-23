@@ -231,6 +231,13 @@ module.exports = {
             'fname': 'Srividya',
             'lname': 'Bharadwaj',
             'fullname': 'Srividya Bharadwaj'
+        },
+        {
+            'username': 'ajithranka',
+            'uid': '3878839',
+            'fname': 'Ajith',
+            'lname': 'Ranka',
+            'fullname': 'Ajith Ranka'
         }
     ]
 };
