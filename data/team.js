@@ -214,8 +214,7 @@ module.exports = {
             'username': 'Rub21',
             'uid': '510836',
             'fname': 'Ruben',
-            'mname': 'Lopez',
-            'lname': 'Mendoza',
+            'lname': 'Lopez Mendoza',
             'fullname': 'Ruben Lopez Mendoza'
         },
         {
