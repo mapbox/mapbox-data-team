@@ -100,7 +100,7 @@ module.exports = {
             'fname': 'Eliane Sammy',
             'mname': 'Joyo',
             'lname': 'Meneses',
-            'fullname': 'Eliane Joyo Meneses'
+            'fullname': 'Eliane Sammy Joyo Meneses'
         },
         {
             'username': 'yurasi',
