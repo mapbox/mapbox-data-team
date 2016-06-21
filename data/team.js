@@ -103,6 +103,14 @@ module.exports = {
             'fullname': 'Eliane Joyo Meneses'
         },
         {
+            'username': 'yurasi',
+            'uid': '3526564',
+            'fname': 'Galia',
+            'mname': 'Eyzaguirre',
+            'lname': 'Luque',
+            'fullname': 'Galia Eyzaguirre Luque'
+        },
+        {
             'username': 'jinalfoflia',
             'uid': '2847988',
             'fname': 'Jinal',
@@ -180,6 +188,14 @@ module.exports = {
             'fname': 'Pavel',
             'lname': 'Baez',
             'fullname': 'Pavel Baez'
+        },
+        {
+            'username': 'piligab',
+            'uid': '3877019',
+            'fname': 'Pilar Gabriela',
+            'mname': 'Serrano',
+            'lname': 'Quispe',
+            'fullname': 'Pilar Gabriela Serrano Quispe'
         },
         {
             'username': 'poornibadrinath',
