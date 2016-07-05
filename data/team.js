@@ -59,6 +59,13 @@ module.exports = {
             'fullname': 'Aruna Sankaranarayanan'
         },
         {
+            'username': 'BharataHS',
+            'uid': '706170',
+            'fname': 'Bharata',
+            'lname': 'Srinivasa',
+            'fullname': Bharata Srinivasa'
+        },
+        {
             'username': 'bkowshik',
             'uid': '1087876',
             'fname': 'Bhargav',
