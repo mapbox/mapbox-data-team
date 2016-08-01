@@ -38,6 +38,13 @@ module.exports = {
             'fullname': 'Alex Barth'
         },
         {
+            'username': 'Amisha Singla',
+            'uid': '3460649',
+            'fname': 'Amisha',
+            'lname': 'Singla',
+            'fullname': 'Amisha Singla'
+        },
+        {
             'username': 'andygol',
             'uid': '94578',
             'fname': 'Andrey',
