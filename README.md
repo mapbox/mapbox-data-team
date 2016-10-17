@@ -5,14 +5,14 @@ You can also get mappings between usernames and user IDs
 
 ## Install
 
-Include 
+Include
 `npm install mapbox-data-team`
 
 
 ## Examples
 
 ```
-var dataTeam = require('data-team');
+var dataTeam = require('mapbox-data-team');
 
 var allUsernames = dataTeam.getUsernames();
 var allUserIds = dataTeam.getUserIds();
@@ -20,7 +20,7 @@ var allNames = dataTeam.getNames();
 var fullDataTeamInfo = dataTeam.getEverything();
 
 //Specific information
-var poornimaUserName = dataTeam.getUsernamesFor('fname', 'Poornima'); //OR dataTeam.getUsernamesFor('fname', 'poornima'); OR dataTeam.getUsernamesFor('fname', 'poORnimA'); 
+var poornimaUserName = dataTeam.getUsernamesFor('fname', 'Poornima'); //OR dataTeam.getUsernamesFor('fname', 'poornima'); OR dataTeam.getUsernamesFor('fname', 'poORnimA');
 
 var poornimaUserId = dataTeam.getUserIdsFor('fname', 'Poornima'); //OR dataTeam.getUserIdsFor('fname', 'poornima'); OR dataTeam.getUserIdsFor('fname', 'PoORniMa');
 ```
