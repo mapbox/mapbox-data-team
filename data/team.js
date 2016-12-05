@@ -125,6 +125,13 @@ module.exports = {
             'fullname': 'Galia Eyzaguirre Luque'
         },
         {
+            'username': 'Fa7C0N',
+            'uid': '4148813',
+            'fname': 'Gokul',
+            'lname': 'Ganesan',
+            'fullname': 'Gokul Ganesan'
+        },
+        {
             'username': 'jinalfoflia',
             'uid': '2847988',
             'fname': 'Jinal',
@@ -288,13 +295,7 @@ module.exports = {
             'fname': 'Upendra',
             'lname': 'Karukonda',
             'fullname': 'Upendra Karukonda'
-        },
-	{
-            'username': 'Fa7C0N',
-            'uid': '4148813',
-            'fname': 'Gokul',
-            'lname': 'Ganesan',
-            'fullname': 'Gokul Ganesan'
         }
+		
     ]
 };
