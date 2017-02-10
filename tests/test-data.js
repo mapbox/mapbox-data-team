@@ -5,7 +5,10 @@ module.exports = {
             'uid': '53073',
             'fname': 'Aaron',
             'lname': 'Lidman',
-            'fullname': 'Aaron Lidman'
+            'fullname': 'Aaron Lidman',
+            'other_accounts': [
+                {'username': 'aaron_imports', 'uid': '3685554'}
+            ]
         },
         {
             'username': 'aarthy',
@@ -19,7 +22,11 @@ module.exports = {
             'uid': '3029661',
             'fname': 'Abhishek',
             'lname': 'Saikia',
-            'fullname': 'Abhishek Saikia'
+            'fullname': 'Abhishek Saikia',
+            'other_accounts': [
+                {'username': 'saikabhi_sfimport', 'uid': '4893098'},
+                {'username': 'saikabhi_LA_imports', 'uid': '4221399'}
+            ]
         },
         {
             'username': 'oini',
