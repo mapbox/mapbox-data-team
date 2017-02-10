@@ -7,7 +7,10 @@ module.exports = {
             'uid': '53073',
             'fname': 'Aaron',
             'lname': 'Lidman',
-            'fullname': 'Aaron Lidman'
+            'fullname': 'Aaron Lidman',
+            'other_accounts': [
+                {'username': 'aaron_imports', 'uid': '3685554'}
+            ]
         },
         {
             'username': 'aarthy',
@@ -21,7 +24,11 @@ module.exports = {
             'uid': '3029661',
             'fname': 'Abhishek',
             'lname': 'Saikia',
-            'fullname': 'Abhishek Saikia'
+            'fullname': 'Abhishek Saikia',
+            'other_accounts': [
+                {'username': 'saikabhi_sfimport', 'uid': '4893098'},
+                {'username': 'saikabhi_LA_imports', 'uid': '4221399'}
+            ]
         },
         {
             'username': 'ajithranka',
@@ -56,7 +63,10 @@ module.exports = {
             'uid': '1306',
             'fname': 'Arun',
             'lname': 'Ganesh',
-            'fullname': 'Arun Ganesh'
+            'fullname': 'Arun Ganesh',
+            'other_accounts': [
+                {'username': 'planemad_imports', 'uid': '3845056'}
+            ]
         },
         {
             'username': 'Arunasank',
@@ -70,7 +80,11 @@ module.exports = {
             'uid': '706170',
             'fname': 'Bharata',
             'lname': 'Srinivasa',
-            'fullname': 'Bharata Srinivasa'
+            'fullname': 'Bharata Srinivasa',
+            'other_accounts': [
+                {'username': 'BharataHS_sfimport', 'uid': '4892902'},
+                {'username': 'BharataHS_laimport', 'uid': '5239832'}
+            ]
         },
         {
             'username': 'bkowshik',
@@ -84,14 +98,20 @@ module.exports = {
             'uid': '2511706',
             'fname': 'Cesar',
             'lname': 'Alfaro',
-            'fullname': 'Cesar Alfaro'
+            'fullname': 'Cesar Alfaro',
+            'other_accounts': [
+                {'username': 'calfarome_labuilding', 'uid': '3851691'}
+            ]
         },
         {
             'username': 'Chetan_Gowda',
             'uid': '2644101',
             'fname': 'Chethan',
             'lname': 'Gowda',
-            'fullname': 'Chethan Gowda'
+            'fullname': 'Chethan Gowda',
+            'other_accounts': [
+                {'uid': '3845061', 'username': 'chetan_labuildings'}
+            ]
         },
         {
             'username': 'dannykath',
@@ -99,14 +119,20 @@ module.exports = {
             'fname': 'Danny',
             'mname': 'Aiquipa',
             'lname': 'Pacheco',
-            'fullname': 'Danny Aiquipa Pacheco'
+            'fullname': 'Danny Aiquipa Pacheco',
+            'other_accounts': [
+                {'username': 'dannykath_labuildings', 'uid': '3851440'}
+            ]
         },
         {
             'username': 'ediyes',
             'uid': '1240849',
             'fname': 'Edith',
             'lname': 'Quispe',
-            'fullname': 'Edith Quispe'
+            'fullname': 'Edith Quispe',
+            'other_accounts': [
+                {'username': 'ediyes_labuilding', 'uid': '3851566'}
+            ]
         },
         {
             'username': 'samely',
@@ -114,7 +140,10 @@ module.exports = {
             'fname': 'Eliane Sammy',
             'mname': 'Joyo',
             'lname': 'Meneses',
-            'fullname': 'Eliane Sammy Joyo Meneses'
+            'fullname': 'Eliane Sammy Joyo Meneses',
+            'other_accounts': [
+                {'username': 'samely_labuildings', 'uid': '3851545'}
+            ]
         },
         {
             'username': 'yurasi',
@@ -122,28 +151,40 @@ module.exports = {
             'fname': 'Galia',
             'mname': 'Eyzaguirre',
             'lname': 'Luque',
-            'fullname': 'Galia Eyzaguirre Luque'
+            'fullname': 'Galia Eyzaguirre Luque',
+            'other_accounts': [
+                {'username': 'yurasi_import', 'uid': '4210536'}
+            ]
         },
         {
             'username': 'Fa7C0N',
             'uid': '4148813',
             'fname': 'Gokul',
             'lname': 'Ganesan',
-            'fullname': 'Gokul Ganesan'
+            'fullname': 'Gokul Ganesan',
+            'other_accounts': [
+                {'username': 'Fa7C0N_imports', 'uid': '5227092'}
+            ]
         },
         {
             'username': 'jinalfoflia',
             'uid': '2847988',
             'fname': 'Jinal',
             'lname': 'Foflia',
-            'fullname': 'Jinal Foflia'
+            'fullname': 'Jinal Foflia',
+            'other_accounts': [
+                {'username': 'jinalfoflia_labuilding', 'uid': '3845052'}
+            ]
         },
         {
             'username': 'Jothirnadh',
             'uid': '2015224',
             'fname': 'Jothirnadh',
             'lname': 'Sai',
-            'fullname': 'Jothirnadh Sai'
+            'fullname': 'Jothirnadh Sai',
+            'other_accounts': [
+                {'username': 'Jothirnadh_labuildings', 'uid': '3592311'}
+            ]
         },
         {
             'username': 'karitotp',
@@ -151,7 +192,10 @@ module.exports = {
             'fname': 'Karito',
             'mname': 'Tenorio',
             'lname': 'Palomino',
-            'fullname': 'Karito Tenorio Palomino'
+            'fullname': 'Karito Tenorio Palomino',
+            'other_accounts': [
+                {'username': 'karitotp_labuildings', 'uid': '3851499'}
+            ]
         },
         {
             'username': 'Luis36995',
@@ -159,35 +203,50 @@ module.exports = {
             'fname': 'Luis',
             'mname': 'Alanya',
             'lname': 'Ortega',
-            'fullname': 'Luis Alanya Ortega'
+            'fullname': 'Luis Alanya Ortega',
+            'other_accounts': [
+                {'username': 'Luis36995_labuildings', 'uid': '3851527'}
+            ]
         },
         {
             'username': 'manings',
             'uid': '3272286',
             'fname': 'Maning',
             'lname': 'Sambale',
-            'fullname': 'Maning Sambale'
+            'fullname': 'Maning Sambale',
+            'other_accounts': [
+                {'uid': '3755014', 'username': 'manings_labuildings'}
+            ]
         },
         {
             'username': 'manoharuss',
             'uid': '3769434',
             'fname': 'Manohar',
             'lname': 'Erikipati',
-            'fullname': 'Manohar Erikipati'
+            'fullname': 'Manohar Erikipati',
+            'other_accounts': [
+                {'username': 'manoharuss_imports', 'uid': '4222790'}
+            ]
         },
         {
             'username': 'nammala',
             'uid': '3479270',
             'fname': 'Krishna',
             'lname': 'Nammala',
-            'fullname': 'Krishna Nammala'
+            'fullname': 'Krishna Nammala',
+            'other_accounts': [
+                {'uid': '4222212', 'username': 'nammala_labuildings'}
+            ]
         },
         {
             'username': 'nikhilprabhakar',
             'uid': '2835928',
             'fname': 'Nikhil',
             'lname': 'Prabhakar',
-            'fullname': 'Nikhil Prabhakar'
+            'fullname': 'Nikhil Prabhakar',
+            'other_accounts': [
+                {'username': 'nikhil_labuildings', 'uid': '3845071'}
+            ]
         },
         {
             'username': 'oini',
@@ -201,7 +260,10 @@ module.exports = {
             'uid': '2508151',
             'fname': 'Pavel',
             'lname': 'Baez',
-            'fullname': 'Pavel Baez'
+            'fullname': 'Pavel Baez',
+            'other_accounts': [
+                {'username': 'ridixcr_import', 'uid': '4046988'}
+            ]
         },
         {
             'username': 'piligab',
@@ -209,14 +271,20 @@ module.exports = {
             'fname': 'Pilar Gabriela',
             'mname': 'Serrano',
             'lname': 'Quispe',
-            'fullname': 'Pilar Gabriela Serrano Quispe'
+            'fullname': 'Pilar Gabriela Serrano Quispe',
+            'other_accounts': [
+                {'username': 'piligab_labuildings', 'uid': '4210501'}
+            ]
         },
         {
             'username': 'poornibadrinath',
             'uid': '1597155',
             'fname': 'Poornima',
             'lname': 'Badrinath',
-            'fullname': 'Poornima Badrinath'
+            'fullname': 'Poornima Badrinath',
+            'other_accounts': [
+                {'username': 'poornima_labuildings', 'uid': '4213767'}
+            ]
         },
         {
             'username': 'pratikyadav',
@@ -230,7 +298,10 @@ module.exports = {
             'uid': '2823295',
             'fname': 'Ramya',
             'lname': 'Ragupathy',
-            'fullname': 'Ramya Ragupathy'
+            'fullname': 'Ramya Ragupathy',
+            'other_accounts': [
+                {'username': 'ramyaragupathy_labuildings', 'uid': '3850292'}
+            ]
         },
         {
             'username': 'RichRico',
@@ -238,21 +309,30 @@ module.exports = {
             'fname': 'Richman',
             'mname': 'Pariona',
             'lname': 'Torres',
-            'fullname': 'Richman Pariona Torres'
+            'fullname': 'Richman Pariona Torres',
+            'other_accounts': [
+                {'username': 'RichRico_labuildings', 'uid': '3851538'}
+            ]
         },
         {
             'username': 'Rub21',
             'uid': '510836',
             'fname': 'Ruben',
             'lname': 'Lopez Mendoza',
-            'fullname': 'Ruben Lopez Mendoza'
+            'fullname': 'Ruben Lopez Mendoza',
+            'other_accounts': [
+                {'username': 'Rub21_labuildings', 'uid': '3851512'}
+            ]
         },
         {
             'username': 'ruthmaben',
             'uid': '2554698',
             'fname': 'Ruth',
             'lname': 'Maben',
-            'fullname': 'Ruth Maben'
+            'fullname': 'Ruth Maben',
+            'other_accounts': [
+                {'username': 'ruthmaben_labuildings', 'uid': '3850108'}
+            ]
         },
         {
             'username': 'geohacker',
@@ -287,7 +367,10 @@ module.exports = {
             'uid': '4007051',
             'fname': 'Upendra',
             'lname': 'Karukonda',
-            'fullname': 'Upendra Karukonda'
+            'fullname': 'Upendra Karukonda',
+            'other_accounts': [
+                {'username': 'upendra_labuilding', 'uid': '4517122'}
+            ]
         }
 		
     ]
