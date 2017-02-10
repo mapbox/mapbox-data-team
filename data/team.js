@@ -369,7 +369,8 @@ module.exports = {
             'lname': 'Karukonda',
             'fullname': 'Upendra Karukonda',
             'other_accounts': [
-                {'username': 'upendra_labuilding', 'uid': '4517122'}
+                {'username': 'upendra_labuilding', 'uid': '4517122'},
+                {'username': 'upendra_sfimport', 'uid': '4893041'}
             ]
         }
 		
