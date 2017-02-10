@@ -1,6 +1,6 @@
 {
   "name": "mapbox-data-team",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Easily require OSM usernames and user IDs of the Mapbox Data Team",
   "scripts": {
     "test": "node tests/test.js"
