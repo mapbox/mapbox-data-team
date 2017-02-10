@@ -162,13 +162,6 @@ module.exports = {
             'fullname': 'Luis Alanya Ortega'
         },
         {
-            'username': 'Maanya',
-            'uid': '3572302',
-            'fname': 'Maanya',
-            'lname': 'Umashaanker',
-            'fullname': 'Maanya Umashaanker'
-        },
-        {
             'username': 'manings',
             'uid': '3272286',
             'fname': 'Maning',
