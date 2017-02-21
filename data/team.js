@@ -55,7 +55,7 @@ module.exports = {
             'fname': 'Amisha',
             'lname': 'Singla',
             'fullname': 'Amisha Singla',
-            'github': 'amisha157'
+            'github': 'amishas157'
         },
         {
             'username': 'andygol',
@@ -168,7 +168,7 @@ module.exports = {
             'mname': 'Eyzaguirre',
             'lname': 'Luque',
             'fullname': 'Galia Eyzaguirre Luque',
-            'github': 'yurasi_',
+            'github': 'yurasi',
             'other_accounts': [
                 {'username': 'yurasi_import', 'uid': '4210536'}
             ]
@@ -179,7 +179,7 @@ module.exports = {
             'fname': 'Gokul',
             'lname': 'Ganesan',
             'fullname': 'Gokul Ganesan',
-            'github': 'fa7c0n',
+            'github': 'Fa7C0n',
             'other_accounts': [
                 {'username': 'Fa7C0N_imports', 'uid': '5227092'}
             ]
@@ -225,7 +225,7 @@ module.exports = {
             'mname': 'Alanya',
             'lname': 'Ortega',
             'fullname': 'Luis Alanya Ortega',
-            'github': 'luisalanya',
+            'github': 'luiswalter',
             'other_accounts': [
                 {'username': 'Luis36995_labuildings', 'uid': '3851527'}
             ]
@@ -247,7 +247,7 @@ module.exports = {
             'fname': 'Manohar',
             'lname': 'Erikipati',
             'fullname': 'Manohar Erikipati',
-            'github': 'maroharuss',
+            'github': 'manoharuss',
             'other_accounts': [
                 {'username': 'manoharuss_imports', 'uid': '4222790'}
             ]
@@ -300,7 +300,7 @@ module.exports = {
             'mname': 'Serrano',
             'lname': 'Quispe',
             'fullname': 'Pilar Gabriela Serrano Quispe',
-            'github': 'piligab_', //To confirm
+            'github': 'piligab',
             'other_accounts': [
                 {'username': 'piligab_labuildings', 'uid': '4210501'}
             ]
@@ -342,7 +342,7 @@ module.exports = {
             'mname': 'Pariona',
             'lname': 'Torres',
             'fullname': 'Richman Pariona Torres',
-            'github': 'richrico',
+            'github': 'RichRico',
             'other_accounts': [
                 {'username': 'RichRico_labuildings', 'uid': '3851538'}
             ]
