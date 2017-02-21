@@ -47,7 +47,7 @@ test('getNames()', function (assert) {
 });
 
 test('check if the keys are all valid', function(assert) {
-    var canonical = ["username","uid","fname","lname","fullname","other_accounts","mname"];
+    var canonical = ["username","uid","fname","lname","fullname","github","other_accounts","mname"];
     var keys = [];
     team.getEverything().forEach(function (t) {
         Array.prototype.push.apply(keys, Object.keys(t));
