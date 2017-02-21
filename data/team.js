@@ -8,6 +8,7 @@ module.exports = {
             'fname': 'Aaron',
             'lname': 'Lidman',
             'fullname': 'Aaron Lidman',
+            'github': 'aaronlidman',
             'other_accounts': [
                 {'username': 'aaron_imports', 'uid': '3685554'}
             ]
@@ -17,7 +18,8 @@ module.exports = {
             'uid': '2985232',
             'fname': 'Aarthy',
             'lname': 'Chandrasekhar',
-            'fullname': 'Aarthy Chandrasekhar'
+            'fullname': 'Aarthy Chandrasekhar',
+            'github': 'aarthykc'
         },
         {
             'username': 'saikabhi',
@@ -25,6 +27,7 @@ module.exports = {
             'fname': 'Abhishek',
             'lname': 'Saikia',
             'fullname': 'Abhishek Saikia',
+            'github': 'abhisheksaikia',
             'other_accounts': [
                 {'username': 'saikabhi_sfimport', 'uid': '4893098'},
                 {'username': 'saikabhi_LA_imports', 'uid': '4221399'}
@@ -35,28 +38,32 @@ module.exports = {
             'uid': '3878839',
             'fname': 'Ajith',
             'lname': 'Ranka',
-            'fullname': 'Ajith Ranka'
+            'fullname': 'Ajith Ranka',
+            'github': 'ajithranka'
         },
         {
             'username': 'lxbarth',
             'uid': '589596',
             'fname': 'Alex',
             'lname': 'Barth',
-            'fullname': 'Alex Barth'
+            'fullname': 'Alex Barth',
+            'github': 'lxbarth'
         },
         {
             'username': 'Amisha Singla',
             'uid': '3460649',
             'fname': 'Amisha',
             'lname': 'Singla',
-            'fullname': 'Amisha Singla'
+            'fullname': 'Amisha Singla',
+            'github': 'amisha157'
         },
         {
             'username': 'andygol',
             'uid': '94578',
             'fname': 'Andrey',
             'lname': 'Golovin',
-            'fullname': 'Andrey Golovin'
+            'fullname': 'Andrey Golovin',
+            'github': 'andygol'
         },
         {
             'username': 'PlaneMad',
@@ -64,6 +71,7 @@ module.exports = {
             'fname': 'Arun',
             'lname': 'Ganesh',
             'fullname': 'Arun Ganesh',
+            'github': 'planemad',
             'other_accounts': [
                 {'username': 'planemad_imports', 'uid': '3845056'}
             ]
@@ -73,7 +81,8 @@ module.exports = {
             'uid': '2477516',
             'fname': 'Aruna',
             'lname': 'Sankaranarayanan',
-            'fullname': 'Aruna Sankaranarayanan'
+            'fullname': 'Aruna Sankaranarayanan',
+            'github': 'arunasank'
         },
         {
             'username': 'BharataHS',
@@ -81,6 +90,7 @@ module.exports = {
             'fname': 'Bharata',
             'lname': 'Srinivasa',
             'fullname': 'Bharata Srinivasa',
+            'github': 'bsrinivasa',
             'other_accounts': [
                 {'username': 'BharataHS_sfimport', 'uid': '4892902'},
                 {'username': 'BharataHS_laimport', 'uid': '5239832'}
@@ -91,7 +101,8 @@ module.exports = {
             'uid': '1087876',
             'fname': 'Bhargav',
             'lname': 'Kowshik',
-            'fullname': 'Bhargav Kowshik'
+            'fullname': 'Bhargav Kowshik',
+            'github': 'bkowshik'
         },
         {
             'username': 'calfarome',
@@ -99,6 +110,7 @@ module.exports = {
             'fname': 'Cesar',
             'lname': 'Alfaro',
             'fullname': 'Cesar Alfaro',
+            'github': 'calfarome',
             'other_accounts': [
                 {'username': 'calfarome_labuilding', 'uid': '3851691'}
             ]
@@ -109,6 +121,7 @@ module.exports = {
             'fname': 'Chethan',
             'lname': 'Gowda',
             'fullname': 'Chethan Gowda',
+            'github': 'chtnha',
             'other_accounts': [
                 {'uid': '3845061', 'username': 'chetan_labuildings'}
             ]
@@ -120,6 +133,7 @@ module.exports = {
             'mname': 'Aiquipa',
             'lname': 'Pacheco',
             'fullname': 'Danny Aiquipa Pacheco',
+            'github': 'dannykath',
             'other_accounts': [
                 {'username': 'dannykath_labuildings', 'uid': '3851440'}
             ]
@@ -130,6 +144,7 @@ module.exports = {
             'fname': 'Edith',
             'lname': 'Quispe',
             'fullname': 'Edith Quispe',
+            'github': 'ediyes',
             'other_accounts': [
                 {'username': 'ediyes_labuilding', 'uid': '3851566'}
             ]
@@ -141,6 +156,7 @@ module.exports = {
             'mname': 'Joyo',
             'lname': 'Meneses',
             'fullname': 'Eliane Sammy Joyo Meneses',
+            'github': 'samely',
             'other_accounts': [
                 {'username': 'samely_labuildings', 'uid': '3851545'}
             ]
@@ -152,6 +168,7 @@ module.exports = {
             'mname': 'Eyzaguirre',
             'lname': 'Luque',
             'fullname': 'Galia Eyzaguirre Luque',
+            'github': 'yurasi_',
             'other_accounts': [
                 {'username': 'yurasi_import', 'uid': '4210536'}
             ]
@@ -162,6 +179,7 @@ module.exports = {
             'fname': 'Gokul',
             'lname': 'Ganesan',
             'fullname': 'Gokul Ganesan',
+            'github': 'fa7c0n',
             'other_accounts': [
                 {'username': 'Fa7C0N_imports', 'uid': '5227092'}
             ]
@@ -172,6 +190,7 @@ module.exports = {
             'fname': 'Jinal',
             'lname': 'Foflia',
             'fullname': 'Jinal Foflia',
+            'github': 'jinalfoflia',
             'other_accounts': [
                 {'username': 'jinalfoflia_labuilding', 'uid': '3845052'}
             ]
@@ -182,6 +201,7 @@ module.exports = {
             'fname': 'Jothirnadh',
             'lname': 'Sai',
             'fullname': 'Jothirnadh Sai',
+            'github': 'jothirnadh',
             'other_accounts': [
                 {'username': 'Jothirnadh_labuildings', 'uid': '3592311'}
             ]
@@ -193,6 +213,7 @@ module.exports = {
             'mname': 'Tenorio',
             'lname': 'Palomino',
             'fullname': 'Karito Tenorio Palomino',
+            'github': 'karitotp',
             'other_accounts': [
                 {'username': 'karitotp_labuildings', 'uid': '3851499'}
             ]
@@ -204,6 +225,7 @@ module.exports = {
             'mname': 'Alanya',
             'lname': 'Ortega',
             'fullname': 'Luis Alanya Ortega',
+            'github': 'luisalanya',
             'other_accounts': [
                 {'username': 'Luis36995_labuildings', 'uid': '3851527'}
             ]
@@ -214,6 +236,7 @@ module.exports = {
             'fname': 'Maning',
             'lname': 'Sambale',
             'fullname': 'Maning Sambale',
+            'github': 'maning',
             'other_accounts': [
                 {'uid': '3755014', 'username': 'manings_labuildings'}
             ]
@@ -224,6 +247,7 @@ module.exports = {
             'fname': 'Manohar',
             'lname': 'Erikipati',
             'fullname': 'Manohar Erikipati',
+            'github': 'maroharuss',
             'other_accounts': [
                 {'username': 'manoharuss_imports', 'uid': '4222790'}
             ]
@@ -234,6 +258,7 @@ module.exports = {
             'fname': 'Krishna',
             'lname': 'Nammala',
             'fullname': 'Krishna Nammala',
+            'github': 'krishnanammala',
             'other_accounts': [
                 {'uid': '4222212', 'username': 'nammala_labuildings'}
             ]
@@ -244,6 +269,7 @@ module.exports = {
             'fname': 'Nikhil',
             'lname': 'Prabhakar',
             'fullname': 'Nikhil Prabhakar',
+            'github': 'nikhilprabhakar',
             'other_accounts': [
                 {'username': 'nikhil_labuildings', 'uid': '3845071'}
             ]
@@ -253,7 +279,8 @@ module.exports = {
             'uid': '3057995',
             'fname': 'Oindrila',
             'lname': 'Gupta',
-            'fullname': 'Oindrila Gupta'
+            'fullname': 'Oindrila Gupta',
+            'github': 'oini'
         },
         {
             'username': 'ridixcr',
@@ -261,6 +288,7 @@ module.exports = {
             'fname': 'Pavel',
             'lname': 'Baez',
             'fullname': 'Pavel Baez',
+            'github': 'ridixcr',
             'other_accounts': [
                 {'username': 'ridixcr_import', 'uid': '4046988'}
             ]
@@ -272,6 +300,7 @@ module.exports = {
             'mname': 'Serrano',
             'lname': 'Quispe',
             'fullname': 'Pilar Gabriela Serrano Quispe',
+            'github': 'piligab_', //To confirm
             'other_accounts': [
                 {'username': 'piligab_labuildings', 'uid': '4210501'}
             ]
@@ -282,6 +311,7 @@ module.exports = {
             'fname': 'Poornima',
             'lname': 'Badrinath',
             'fullname': 'Poornima Badrinath',
+            'github': 'poornibadrinath',
             'other_accounts': [
                 {'username': 'poornima_labuildings', 'uid': '4213767'}
             ]
@@ -291,7 +321,8 @@ module.exports = {
             'uid': '2905914',
             'fname': 'Pratik',
             'lname': 'Yadav',
-            'fullname': 'Pratik Yadav'
+            'fullname': 'Pratik Yadav',
+            'github': 'pratikyadav'
         },
         {
             'username': 'ramyaragupathy',
@@ -299,6 +330,7 @@ module.exports = {
             'fname': 'Ramya',
             'lname': 'Ragupathy',
             'fullname': 'Ramya Ragupathy',
+            'github': 'ramyaragupathy',
             'other_accounts': [
                 {'username': 'ramyaragupathy_labuildings', 'uid': '3850292'}
             ]
@@ -310,6 +342,7 @@ module.exports = {
             'mname': 'Pariona',
             'lname': 'Torres',
             'fullname': 'Richman Pariona Torres',
+            'github': 'richrico',
             'other_accounts': [
                 {'username': 'RichRico_labuildings', 'uid': '3851538'}
             ]
@@ -320,6 +353,7 @@ module.exports = {
             'fname': 'Ruben',
             'lname': 'Lopez Mendoza',
             'fullname': 'Ruben Lopez Mendoza',
+            'github': 'rub21',
             'other_accounts': [
                 {'username': 'Rub21_labuildings', 'uid': '3851512'}
             ]
@@ -330,6 +364,7 @@ module.exports = {
             'fname': 'Ruth',
             'lname': 'Maben',
             'fullname': 'Ruth Maben',
+            'github': 'ruthmaben',
             'other_accounts': [
                 {'username': 'ruthmaben_labuildings', 'uid': '3850108'}
             ]
@@ -339,28 +374,32 @@ module.exports = {
             'uid': '146675',
             'fname': 'Sajjad',
             'lname': 'Anwar',
-            'fullname': 'Sajjad Anwar'
+            'fullname': 'Sajjad Anwar',
+            'github': 'geohacker'
         },
         {
             'username': 'sanjayb',
             'uid': '261012',
             'fname': 'Sanjay',
             'lname': 'Bhangar',
-            'fullname': 'Sanjay Bhangar'
+            'fullname': 'Sanjay Bhangar',
+            'github': 'batpad'
         },
         {
             'username': 'shvrm',
             'uid': '2306749',
             'fname': 'Sivaram',
             'lname': 'Ramachandran',
-            'fullname': 'Sivaram Ramachandran'
+            'fullname': 'Sivaram Ramachandran',
+            'github': 'shvrm'
         },
         {
             'username': 'srividya_c',
             'uid': '2115749',
             'fname': 'Srividya',
             'lname': 'Bharadwaj',
-            'fullname': 'Srividya Bharadwaj'
+            'fullname': 'Srividya Bharadwaj',
+            'github': 'srividyacb'
         },
         {
             'username': 'upendrakarukonda',
@@ -368,6 +407,7 @@ module.exports = {
             'fname': 'Upendra',
             'lname': 'Karukonda',
             'fullname': 'Upendra Karukonda',
+            'github': 'kupendrayadav',
             'other_accounts': [
                 {'username': 'upendra_labuilding', 'uid': '4517122'},
                 {'username': 'upendra_sfimport', 'uid': '4893041'}
