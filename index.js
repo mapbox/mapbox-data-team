@@ -41,11 +41,37 @@ function getEverything(json) {
     return json || team;
 }
 
+function _find(queryShape, returnShape, json, singular) {
+    var teamJSON = json || team;
+    var keys = Object.keys(queryShape);
+    
+    var filtered = teamJSON.filter(function(t) {
+        var keep = true;
+        keys.forEach(function (k) {
+            if (t.hasOwnProperty(k)) {
+                keep = keep && (t[k] === queryShape[k]);
+            }
+        });
+        return keep;
+    });
+    return singular ? filtered[0] : filtered;
+}
+
+function find(queryShape, returnShape, json) {
+    return _find(queryShape || {}, returnShape || {}, json, false);
+}
+
+function findOne(queryShape, returnShape, json) {
+    return _find(queryShape || {}, returnShape || {}, json, true);
+}
+
 module.exports = {
     'getUsernames': getUsernames,
     'getNames': getNames,
     'getUserIds': getUserIds,
     'getUsernamesFor': getUsernamesFor,
     'getUserIdsFor': getUserIdsFor,
-    'getEverything': getEverything
+    'getEverything': getEverything,
+    'find': find,
+    'findOne': findOne
 };
