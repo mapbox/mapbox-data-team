@@ -43,12 +43,13 @@ function getEverything(json) {
 
 function _find(query, returnShape, json, singular) {
     var teamJSON = json || team;
-    var filtered;
-    if (typeof query === "function") {
+    var filtered = [];
+
+    if (typeof query === 'function') {
         filtered = teamJSON.filter(query)
     } else {
         var keys = Object.keys(query);
-        filtered = teamJSON.filter(function (t) {
+        filtered = teamJSON.filter(function(t) {
             var keep = true;
             keys.forEach(function (k) {
                 if (t.hasOwnProperty(k)) {
@@ -59,7 +60,7 @@ function _find(query, returnShape, json, singular) {
         });
     }
 
-    if (returnShape) {
+    if (returnShape instanceof Array && returnShape.length > 0) {
         filtered = filtered.map(function (d) {
             var shaped = {};
             returnShape.forEach(function (k) {

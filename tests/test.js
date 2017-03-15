@@ -191,3 +191,17 @@ test('check if the findOne shapes', function (assert) {
     assert.deepEqual(result, { username: 'saikabhi', uid: '3029661'});
     assert.end();
 });
+
+test('check if the find shapes incorrect keys', function (assert) {
+    var result = team.find({}, ['usernam'], json.team);
+    assert.deepEqual(result, []);
+    result = team.find({username: 'aarthy'}, ['usernam'], json.team);
+    assert.deepEqual(result, []);
+    assert.end();
+});
+
+test('check if the find shape works with  empty array', function (assert) {
+    var result = team.find({}, [], json.team);
+    assert.deepEqual(result, json.team);
+    assert.end();
+});
