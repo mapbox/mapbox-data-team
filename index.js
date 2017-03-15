@@ -58,15 +58,31 @@ function _find(query, returnShape, json, singular) {
             return keep;
         });
     }
+
+    if (returnShape) {
+        filtered = filtered.map(function (d) {
+            var shaped = {};
+            returnShape.forEach(function (k) {
+                if (d.hasOwnProperty(k) && d[k]) {
+                    shaped[k] = d[k];
+                }
+            });
+            return shaped;
+        })
+        .filter(function(d) {
+            return d && Object.keys(d).length > 0;
+        });
+    }
+
     return singular ? filtered[0] : filtered;
 }
 
 function find(queryShape, returnShape, json) {
-    return _find(queryShape || {}, returnShape || {}, json, false);
+    return _find(queryShape || {}, returnShape, json, false);
 }
 
 function findOne(queryShape, returnShape, json) {
-    return _find(queryShape || {}, returnShape || {}, json, true);
+    return _find(queryShape || {}, returnShape, json, true);
 }
 
 module.exports = {

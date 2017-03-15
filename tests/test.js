@@ -143,3 +143,51 @@ test('check if the findOne filters with a function', function (assert) {
     assert.deepEqual(result, saikabhi);
     assert.end();
 });
+
+test('check if the find shapes', function (assert) {
+    var result = team.find({}, ['username', 'uid'], json.team);
+    assert.deepEqual(result, json.team.map(d => ({username: d.username, uid: d.uid })));
+    assert.end();
+});
+
+test('check if the find shaped other_accounts', function (assert) {
+    var result = team.find({}, ['other_accounts'], json.team);
+    var expected = [
+        {'other_accounts': [
+            { 'username': 'aaron_imports', 'uid': '3685554' }
+        ]},
+       { 'other_accounts': [
+            { 'username': 'saikabhi_sfimport', 'uid': '4893098' },
+            { 'username': 'saikabhi_LA_imports', 'uid': '4221399' }
+        ]}
+    ]
+    assert.deepEqual(result,expected );
+    assert.end();
+});
+
+test('check if the find shaped other_accounts and username', function (assert) {
+    var result = team.find(d => d.other_accounts, ['other_accounts', 'username'], json.team);
+    var expected = [
+        {
+            'username': 'Aaron Lidman',
+            'other_accounts': [
+                { 'username': 'aaron_imports', 'uid': '3685554' }
+            ]
+        },
+        {
+            'username': 'saikabhi',
+            'other_accounts': [
+                { 'username': 'saikabhi_sfimport', 'uid': '4893098' },
+                { 'username': 'saikabhi_LA_imports', 'uid': '4221399' }
+            ]
+        }
+    ]
+    assert.deepEqual(result, expected);
+    assert.end();
+});
+
+test('check if the findOne shapes', function (assert) {
+    var result = team.findOne(t => t.username.charAt('0') === 's', ['username', 'uid'], json.team);
+    assert.deepEqual(result, { username: 'saikabhi', uid: '3029661'});
+    assert.end();
+});
