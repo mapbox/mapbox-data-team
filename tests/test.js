@@ -120,3 +120,26 @@ test('check if the findOne filters by username', function (assert) {
     assert.deepEqual(team.findOne({ username: 'oini' }, null, json.team), oini);
     assert.end();
 });
+
+test('check if the find filters with a function', function (assert) {
+    var result = team.find(t => t.username.charAt('1') === 'a', null, json.team);
+    assert.deepEqual(result.map(u => u.username), ['Aaron Lidman', 'aarthy', 'saikabhi']);
+    assert.end();
+});
+
+test('check if the findOne filters with a function', function (assert) {
+    var saikabhi = {
+        'username': 'saikabhi',
+        'uid': '3029661',
+        'fname': 'Abhishek',
+        'lname': 'Saikia',
+        'fullname': 'Abhishek Saikia',
+        'other_accounts': [
+            { 'username': 'saikabhi_sfimport', 'uid': '4893098' },
+            { 'username': 'saikabhi_LA_imports', 'uid': '4221399' }
+        ]
+    };
+    var result = team.findOne(t => t.username.charAt('0') === 's', null, json.team);
+    assert.deepEqual(result, saikabhi);
+    assert.end();
+});
