@@ -144,6 +144,25 @@ test('check if the findOne filters with a function', function (assert) {
     assert.end();
 });
 
+test('check if the find works with incorrect query', function (assert) {
+    var result = team.find({ usename : 'saikabhi'}, [], json.team);
+    assert.deepEqual(result, json.team);
+    assert.end();
+});
+
+test('check if the find works with no matching data', function (assert) {
+    var result = team.find({ username: 'Zaikabhi' }, [], json.team);
+    assert.deepEqual(result, []);
+    assert.end();
+});
+
+test('check if the findOne works with no matching data', function (assert) {
+    var result = team.findOne({ username: 'Zaikabhi' }, [], json.team);
+    assert.deepEqual(result, undefined);
+    assert.end();
+});
+
+
 test('check if the find shapes', function (assert) {
     var result = team.find({}, ['username', 'uid'], json.team);
     assert.deepEqual(result, json.team.map(d => ({username: d.username, uid: d.uid })));
@@ -205,3 +224,4 @@ test('check if the find shape works with  empty array', function (assert) {
     assert.deepEqual(result, json.team);
     assert.end();
 });
+
