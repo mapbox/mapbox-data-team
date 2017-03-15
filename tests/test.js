@@ -109,7 +109,7 @@ test('check if the find filters by username', function (assert) {
     assert.end();
 });
 
-test('check if the find filters by username', function (assert) {
+test('check if the findOne filters by username', function (assert) {
     var oini = {
         'username': 'oini',
         'uid': '3057995',
