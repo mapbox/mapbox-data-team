@@ -11,6 +11,56 @@ Include
 
 ## Examples
 
+### find() and findOne
+Lets you find multiple entries in the datateam. 
+
+``` Javascript
+var dTeam = require('mapbox-data-team');
+
+dTeam.find(searchFilter, resultFilter);
+```
+
+
+**Search by a particular a field**
+
+``` Javascript
+// should return an array of all matches
+dTeam.find({ 'fName': 'Abhishek' });
+```
+
+
+**Search by uid**
+``` Javascript
+// should return an array of objects of all matches
+dTeam.find({ 'uid': '2226712' });
+```
+
+**Shaping the result based on a shape object**
+``` Javascript
+// should return all matches with field github and fname only
+dTeam.find({ 'uid': '2226712' }, ['github', 'fname']);
+```
+
+
+**Shaping the result with other_accounts**
+``` Javascript
+// should return all matches with field github and fname only
+dTeam.find({}, ['github', 'other_accounts'] );
+```
+
+**Accepting a custom filter function.**
+``` Javascript
+// should return all matching with the function
+dTeam.find( u => u.other_accounts.length > 0);
+
+// should return first matching.
+dTeam.findOne( u => u.other_accounts.length > 0);
+```
+
+
+### Older API 
+_Note this might get deprecated in the future release_
+
 ```
 var dataTeam = require('mapbox-data-team');
 
