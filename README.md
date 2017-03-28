@@ -9,54 +9,35 @@ Include
 `npm install mapbox-data-team`
 
 
+### Sample schema of user object
+
+```Javascript
+// sample user object
+{
+    'username': 'saikabhi',
+    'uid': '3029661',
+    'fname': 'Abhishek',
+    'lname': 'Saikia',
+    'fullname': 'Abhishek Saikia',
+    'other_accounts': [
+        {'username': 'saikabhi_sfimport', 'uid': '4893098'},
+        {'username': 'saikabhi_LA_imports', 'uid': '4221399'}
+    ]
+}
+
+```
+
 ## API
 
-### find() and findOne
-Lets you find one or many entries in the datateam. 
-
+## getEverything()
 ``` Javascript
-var dTeam = require('mapbox-data-team');
-
-dTeam.find(searchFilter, resultFilter);
-```
-
-**Search by a particular a field**
-``` Javascript
-// returns an array of object
-dTeam.find({ 'fName': 'Abhishek' });
-
-dTeam.find({ 'uid': '2226712' });
-```
-
-**Shaping the result based on a shape object**
-``` Javascript
-// returns all matches with only github and fname as object keys
-dTeam.find({ 'uid': '2226712' }, ['github', 'fname']);
-```
-
-**Shaping the result with other_accounts**
-``` Javascript
-// returns everything with field only github and fname as the object keys
-dTeam.find({}, ['github', 'other_accounts'] );
-```
-
-**Accepting a custom filter function.**
-``` Javascript
-// returns all matching objects that return truthy for the input function
-dTeam.find( u => u.other_accounts.length > 0);
-
-// returns one item that first returned truth for the input function
-dTeam.findOne( u => u.other_accounts.length > 0);
-```
-
-See  [tests](https://github.com/mapbox/mapbox-data-team/blob/master/tests/test.js)  for sample use cases.
-
-### Older API 
-_Note this might get deprecated in the future release_
-
-```
 var dataTeam = require('mapbox-data-team');
 
+dataTeam.getEverything();  // [ userObject1, userObject2, userObject3, ... ]
+```
+
+## getUsernames()
+```
 var allUsernames = dataTeam.getUsernames();
 var allUserIds = dataTeam.getUserIds();
 var allNames = dataTeam.getNames();
@@ -66,7 +47,51 @@ var fullDataTeamInfo = dataTeam.getEverything();
 var poornimaUserName = dataTeam.getUsernamesFor('fname', 'Poornima'); //OR dataTeam.getUsernamesFor('fname', 'poornima'); OR dataTeam.getUsernamesFor('fname', 'poORnimA');
 
 var poornimaUserId = dataTeam.getUserIdsFor('fname', 'Poornima'); //OR dataTeam.getUserIdsFor('fname', 'poornima'); OR dataTeam.getUserIdsFor('fname', 'PoORniMa');
+
 ```
+
+### find() and findOne()
+Lets you find one or many entries in the datateam.
+
+**find(searchFilter, resultShape)** returns an array
+**findOne(searchFilter, resultShape)** returns a single object
+
+Params
+**searchFilter** allows to filter the search results.
+**resultShape** allows to shape the resulting object.
+
+Usage:
+``` Javascript
+
+var dataTeam = require('mapbox-data-team');
+dataTeam.find(searchFilter, resultShape);
+
+// do empty search to get everything
+dataTeam.find(); // [ userObject ]
+
+// do an empty search to get only an array of uids
+dataTeam.find(null, ["uid"]); // [ '3029661', '3057995', ...]
+
+
+// search by a particular a field**
+dTeam.find({ 'fName': 'Abhishek' });//  [ abhishekUserObject ]
+
+dTeam.find({ 'uid': '2226712' });//  [ userObject ]
+
+// shaping the result
+dTeam.findOne({ 'uid': '2226712' }, ['github', 'fname']); // { github: 'dannykath', fname: 'Danny Aiquipa Pacheco' }
+
+dTeam.find(null, ['github', 'uid'] ); // [ {github: 'Aaron Lidman', uid: '2985232'}, { github: 'aarthykc', uid: '2985232' }, ... ]
+
+// custom filter function
+dTeam.find( u => u.other_accounts.length > 0); // returns all objects which have u.other_accounts
+
+dTeam.findOne( u => u.other_accounts.length > 0); // returns one item that first returned truth for the input function
+
+```
+
+
+See  [tests](https://github.com/mapbox/mapbox-data-team/blob/master/tests/test.js)  for sample use cases.
 
 ## Add yourself to the module
 
