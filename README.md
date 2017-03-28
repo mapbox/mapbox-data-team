@@ -9,7 +9,7 @@ Include
 `npm install mapbox-data-team`
 
 
-## Examples
+## API
 
 ### find() and findOne
 Lets you find one or many entries in the datateam. 
@@ -19,7 +19,6 @@ var dTeam = require('mapbox-data-team');
 
 dTeam.find(searchFilter, resultFilter);
 ```
-
 
 **Search by a particular a field**
 ``` Javascript
@@ -49,6 +48,8 @@ dTeam.find( u => u.other_accounts.length > 0);
 // returns one item that first returned truth for the input function
 dTeam.findOne( u => u.other_accounts.length > 0);
 ```
+
+See  [tests](https://github.com/mapbox/mapbox-data-team/blob/master/tests/test.js)  for sample use cases.
 
 ### Older API 
 _Note this might get deprecated in the future release_
