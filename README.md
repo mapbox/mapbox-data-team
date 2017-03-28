@@ -36,31 +36,16 @@ var dataTeam = require('mapbox-data-team');
 dataTeam.getEverything();  // [ userObject1, userObject2, userObject3, ... ]
 ```
 
-## Helper functions
-```
-var allUsernames = dataTeam.getUsernames();
-var allUserIds = dataTeam.getUserIds();
-var allNames = dataTeam.getNames();
-
-//Specific information
-var poornimaUserName = dataTeam.getUsernamesFor('fname', 'Poornima'); //OR dataTeam.getUsernamesFor('fname', 'poornima'); OR dataTeam.getUsernamesFor('fname', 'poORnimA');
-
-var poornimaUserId = dataTeam.getUserIdsFor('fname', 'Poornima'); //OR dataTeam.getUserIdsFor('fname', 'poornima'); OR dataTeam.getUserIdsFor('fname', 'PoORniMa');
-
-```
-
 ## Searching
 Find one or many entries in the datateam.
 
 ### find(searchFilter, resultShape)
-Returns an array of objects matching the specified parameters.
-
-Lets your search and the return value would always be an array
+**Returns an array of objects matching the specified parameters.**
 
 | Parameter        | Type           | Description  |
-| ------------- |-------------| -----|
-| searchFilter     | object or function or undefined | Optional.  Specifies the filter for the result. Omit this parameter to return everything |
-| resultShape      | array or undefined      | Optional. Specifies the fields to return inside the resulting object. Omit this parameter to return all fields. |
+| ------------- |:-------------:| -----|
+| searchFilter     | `object` or `function`  | _*Optional*_.  Specifies the filter for the result. Omit this parameter to return everything |
+| resultShape      | `array`   | _*Optional*_. Specifies the fields to return for the resulting object /objects. Omit this parameter to return all fields. |
 
 Example:
 ``` Javascript
@@ -72,15 +57,14 @@ dataTeam.find();
 ```
 
 ### findOne(searchFilter, resultShape)
-
-Returns only one object matching the specified parameters.
+**Returns only one object matching the specified parameters.**
 
 | Parameter        | Type           | Description  |
 | ------------- |:-------------:| -----|
-| searchFilter     | object or function or undefined | Optional.  Specifies the filter for the result. Omit this parameter to return everything |
-| resultShape      | array or undefined      | Optional. Specifies the fields to return inside the resulting object. Omit this parameter to return all fields. |
+| searchFilter     | `object` or `function`  | _*Optional*_.  Specifies the filter for the result. Omit this parameter to return everything |
+| resultShape      | `array`   | _*Optional*_. Specifies the fields to return for the resulting object /objects. Omit this parameter to return all fields. |
 
-Example:
+Examples:
 eg.
 ```Javascript
 // returns a single object matching the `searchFilter` or `undefined` if no match.
@@ -116,6 +100,19 @@ dTeam.find(null, ['github', 'uid'] ); // [ {github: 'Aaron Lidman', uid: '298523
 dTeam.find( u => u.other_accounts.length > 0); // returns all objects which have u.other_accounts
 
 dTeam.findOne( u => u.other_accounts.length > 0); // returns one item that first returned truth for the input function
+
+```
+
+## Helper functions
+```
+var allUsernames = dataTeam.getUsernames();
+var allUserIds = dataTeam.getUserIds();
+var allNames = dataTeam.getNames();
+
+//Specific information
+var poornimaUserName = dataTeam.getUsernamesFor('fname', 'Poornima'); //OR dataTeam.getUsernamesFor('fname', 'poornima'); OR dataTeam.getUsernamesFor('fname', 'poORnimA');
+
+var poornimaUserId = dataTeam.getUserIdsFor('fname', 'Poornima'); //OR dataTeam.getUserIdsFor('fname', 'poornima'); OR dataTeam.getUserIdsFor('fname', 'PoORniMa');
 
 ```
 
