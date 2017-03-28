@@ -56,8 +56,9 @@ Find one or many entries in the datateam.
 Returns an array of objects matching the specified parameters.
 
 Lets your search and the return value would always be an array
+
 | Parameter        | Type           | Description  |
-| ------------- |:-------------:| -----:|
+| ------------- |-------------| -----|
 | searchFilter     | object or function or undefined | Optional.  Specifies the filter for the result. Omit this parameter to return everything |
 | resultShape      | array or undefined      | Optional. Specifies the fields to return inside the resulting object. Omit this parameter to return all fields. |
 
@@ -75,7 +76,7 @@ dataTeam.find();
 Returns only one object matching the specified parameters.
 
 | Parameter        | Type           | Description  |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| -----|
 | searchFilter     | object or function or undefined | Optional.  Specifies the filter for the result. Omit this parameter to return everything |
 | resultShape      | array or undefined      | Optional. Specifies the fields to return inside the resulting object. Omit this parameter to return all fields. |
 
