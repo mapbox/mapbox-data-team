@@ -29,14 +29,14 @@ Include
 
 ## API
 
-## getEverything()
+### Getting everything
 ``` Javascript
 var dataTeam = require('mapbox-data-team');
 
 dataTeam.getEverything();  // [ userObject1, userObject2, userObject3, ... ]
 ```
 
-## helper functions
+### Helper functions
 ```
 var allUsernames = dataTeam.getUsernames();
 var allUserIds = dataTeam.getUserIds();
@@ -49,7 +49,7 @@ var poornimaUserId = dataTeam.getUserIdsFor('fname', 'Poornima'); //OR dataTeam.
 
 ```
 
-### find() and findOne()
+### Searching
 Lets you find one or many entries in the datateam.
 
 **find(searchFilter, resultShape)** returns an array
@@ -88,7 +88,6 @@ dTeam.find( u => u.other_accounts.length > 0); // returns all objects which have
 dTeam.findOne( u => u.other_accounts.length > 0); // returns one item that first returned truth for the input function
 
 ```
-
 
 See  [tests](https://github.com/mapbox/mapbox-data-team/blob/master/tests/test.js)  for sample use cases.
 
