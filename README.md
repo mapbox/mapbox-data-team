@@ -27,16 +27,16 @@ Include
 
 ```
 
-## API
+# API
 
-### Getting everything
+## Getting everything
 ``` Javascript
 var dataTeam = require('mapbox-data-team');
 
 dataTeam.getEverything();  // [ userObject1, userObject2, userObject3, ... ]
 ```
 
-### Helper functions
+## Helper functions
 ```
 var allUsernames = dataTeam.getUsernames();
 var allUserIds = dataTeam.getUserIds();
@@ -49,29 +49,43 @@ var poornimaUserId = dataTeam.getUserIdsFor('fname', 'Poornima'); //OR dataTeam.
 
 ```
 
-### Searching
-Lets you find one or many entries in the datateam.
+## Searching
+Find one or many entries in the datateam.
 
-**find(searchFilter, resultShape)** returns an array
-**findOne(searchFilter, resultShape)** returns a single object
+### find(searchFilter, resultShape)
+Returns an array of objects matching the specified parameters.
 
-Params
-**searchFilter** can be an object or function to allow filtering the search results.
+Lets your search and the return value would always be an array
+| Parameter        | Type           | Description  |
+| ------------- |:-------------:| -----:|
+| searchFilter     | object or function or undefined | Optional.  Specifies the filter for the result. Omit this parameter to return everything |
+| resultShape      | array or undefined      | Optional. Specifies the fields to return inside the resulting object. Omit this parameter to return all fields. |
+
+Example:
+``` Javascript
+// returns an array of objects which return truthy for the input function
+dataTeam.find(u => u.other_accounts.length > 0) // [ {  'username': 'Aaron Lidman', 'uid': '53073', 'fname': 'Aaron', ... }, ... ]
+
+// returns an array of everything similar to getEverything
+dataTeam.find();
+```
+
+### findOne(searchFilter, resultShape)
+
+Returns only one object matching the specified parameters.
+
+| Parameter        | Type           | Description  |
+| ------------- |:-------------:| -----:|
+| searchFilter     | object or function or undefined | Optional.  Specifies the filter for the result. Omit this parameter to return everything |
+| resultShape      | array or undefined      | Optional. Specifies the fields to return inside the resulting object. Omit this parameter to return all fields. |
+
+Example:
 eg.
 ```Javascript
 // returns a single object matching the `searchFilter` or `undefined` if no match.
 dataTeam.findOne({uid: '53073'}) // { 'username': 'Aaron Lidman', 'uid': '53073', 'fname': 'Aaron', ... }
 
-// returns an array of objects which return truthy for the input function
-dataTeam.find(u => u.other_accounts.length > 0) // [ {  'username': 'Aaron Lidman', 'uid': '53073', 'fname': 'Aaron', ... }, ... ]
-```
-
-**resultShape** Can be an array of properties you want to see in the result.
-eg.
-```Javascript
-dataTeam.findOne({uid: '53073'}, ['username']) // { username: 'Aaron Lidman' }
-
-dataTeam.find(null, ['username']) // [ { username: 'Aaron Lidman' }, { username: 'Aarthy Chandrasekhar' }, ...]
+dataTeam.findOne({osm_user: '53073'}) // undefined
 ```
 
 More examples:
