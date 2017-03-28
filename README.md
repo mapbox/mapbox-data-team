@@ -36,12 +36,11 @@ var dataTeam = require('mapbox-data-team');
 dataTeam.getEverything();  // [ userObject1, userObject2, userObject3, ... ]
 ```
 
-## getUsernames()
+## helper functions
 ```
 var allUsernames = dataTeam.getUsernames();
 var allUserIds = dataTeam.getUserIds();
 var allNames = dataTeam.getNames();
-var fullDataTeamInfo = dataTeam.getEverything();
 
 //Specific information
 var poornimaUserName = dataTeam.getUsernamesFor('fname', 'Poornima'); //OR dataTeam.getUsernamesFor('fname', 'poornima'); OR dataTeam.getUsernamesFor('fname', 'poORnimA');
