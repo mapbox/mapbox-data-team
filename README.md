@@ -52,8 +52,8 @@ Example:
 // returns an array of objects which return truthy for the input function
 dataTeam.find(u => u.other_accounts.length > 0) // [ {  'username': 'Aaron Lidman', 'uid': '53073', 'fname': 'Aaron', ... }, ... ]
 
-// returns an array of everything similar to getEverything
-dataTeam.find();
+// similar to above example, except only username key is found in result
+dataTeam.find(u => u.other_accounts.length > 0, ['username']); // [{ 'username': 'Aaron Lidman'}, {'username': 'saikabhi'} ...]
 ```
 
 ### findOne(searchFilter, resultShape)
@@ -64,13 +64,16 @@ dataTeam.find();
 | searchFilter     | `object` or `function`  | _*Optional*_.  Specifies the filter for the result. Omit this parameter to return everything |
 | resultShape      | `array`   | _*Optional*_. Specifies the fields to return for the resulting object /objects. Omit this parameter to return all fields. |
 
-Examples:
-eg.
+Example:
 ```Javascript
 // returns a single object matching the `searchFilter` or `undefined` if no match.
 dataTeam.findOne({uid: '53073'}) // { 'username': 'Aaron Lidman', 'uid': '53073', 'fname': 'Aaron', ... }
 
 dataTeam.findOne({osm_user: '53073'}) // undefined
+
+// returns a single object with only username key
+dataTeam.findOne({uid: '53073'}, ['username']) // { 'username': 'Aaron Lidman'}
+
 ```
 
 More examples:
@@ -83,7 +86,7 @@ dataTeam.find(searchFilter, resultShape);
 dataTeam.find(); // [ userObject ]
 
 // do an empty search to get only an array of uids
-dataTeam.find(null, ["uid"]); // [ '3029661', '3057995', ...]
+dataTeam.find(null, ["uid"]); // [ {uid: '3029661'}, {uid: '3057995'}, ...]
 
 
 // search by a particular a field**
