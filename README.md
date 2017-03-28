@@ -56,10 +56,25 @@ Lets you find one or many entries in the datateam.
 **findOne(searchFilter, resultShape)** returns a single object
 
 Params
-**searchFilter** allows to filter the search results.
-**resultShape** allows to shape the resulting object.
+**searchFilter** can be an object or function to allow filtering the search results.
+eg.
+```Javascript
+// returns a single object matching the `searchFilter` or `undefined` if no match.
+dataTeam.findOne({uid: '53073'}) // { 'username': 'Aaron Lidman', 'uid': '53073', 'fname': 'Aaron', ... }
 
-Usage:
+// returns an array of objects which return truthy for the input function
+dataTeam.find(u => u.other_accounts.length > 0) // [ {  'username': 'Aaron Lidman', 'uid': '53073', 'fname': 'Aaron', ... }, ... ]
+```
+
+**resultShape** Can be an array of properties you want to see in the result.
+eg.
+```Javascript
+dataTeam.findOne({uid: '53073'}, ['username']) // { username: 'Aaron Lidman' }
+
+dataTeam.find(null, ['username']) // [ { username: 'Aaron Lidman' }, { username: 'Aarthy Chandrasekhar' }, ...]
+```
+
+More examples:
 ``` Javascript
 
 var dataTeam = require('mapbox-data-team');
