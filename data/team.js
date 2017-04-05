@@ -124,7 +124,8 @@ module.exports = {
             'fullname': 'Chethan Gowda',
             'github': 'chtnha',
             'other_accounts': [
-                {'uid': '3845061', 'username': 'chetan_labuildings'}
+                {'uid': '3845061', 'username': 'chetan_labuildings'},
+		{'uid': '4884078', 'username': 'chetan-sfimport'}
             ]
         },
         {
