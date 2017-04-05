@@ -334,7 +334,8 @@ module.exports = {
             'fullname': 'Ramya Ragupathy',
             'github': 'ramyaragupathy',
             'other_accounts': [
-                {'username': 'ramyaragupathy_labuildings', 'uid': '3850292'}
+                {'username': 'ramyaragupathy_labuildings', 'uid': '3850292'},
+		{'username': 'ramyaragupathy_sfimport', 'uid': '4896980'},   
             ]
         },
         {
