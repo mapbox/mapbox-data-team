@@ -108,6 +108,7 @@ module.exports = {
             'username': 'calfarome',
             'uid': '2511706',
             'fname': 'Cesar',
+		
             'lname': 'Alfaro',
             'fullname': 'Cesar Alfaro',
             'github': 'calfarome',
@@ -238,7 +239,8 @@ module.exports = {
             'fullname': 'Maning Sambale',
             'github': 'maning',
             'other_accounts': [
-                {'uid': '3755014', 'username': 'manings_labuildings'}
+                {'uid': '3755014', 'username': 'manings_labuildings'},
+		{'uid': '4892650', 'username': 'manings_sfheight'}
             ]
         },
         {
