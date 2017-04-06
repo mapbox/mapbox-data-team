@@ -125,7 +125,7 @@ module.exports = {
             'github': 'chtnha',
             'other_accounts': [
                 {'uid': '3845061', 'username': 'chetan_labuildings'},
-		{'uid': '4884078', 'username': 'chetan-sfimport'}
+                {'uid': '4884078', 'username': 'chetan-sfimport'}
             ]
         },
         {
@@ -241,7 +241,7 @@ module.exports = {
             'github': 'maning',
             'other_accounts': [
                 {'uid': '3755014', 'username': 'manings_labuildings'},
-		{'uid': '4892650', 'username': 'manings_sfheight'}
+                {'uid': '4892650', 'username': 'manings_sfheight'}
             ]
         },
         {
@@ -336,7 +336,7 @@ module.exports = {
             'github': 'ramyaragupathy',
             'other_accounts': [
                 {'username': 'ramyaragupathy_labuildings', 'uid': '3850292'},
-		{'username': 'ramyaragupathy_sfimport', 'uid': '4896980'},   
+                {'username': 'ramyaragupathy_sfimport', 'uid': '4896980'},
             ]
         },
         {
