@@ -416,7 +416,46 @@ module.exports = {
                 {'username': 'upendra_labuilding', 'uid': '4517122'},
                 {'username': 'upendra_sfimport', 'uid': '4893041'}
             ]
-        }
-		
+        },
+	{
+            'username': 'Bhojaraj',
+            'uid': '4647004',
+            'fname': 'Bhojaraj',
+            'lname': 'Basavanagowdara',
+            'fullname': 'Bhojaraj Basavangowdara',
+            'github': 'bhojaraj'
+        },
+	{
+            'username': 'ashleyannmathew',
+            'uid': '4994101',
+            'fname': 'Ashley',
+            'lname': 'Mathew',
+            'fullname': 'Ashley Ann Mathew',
+            'github': 'ashleyannmathew'
+        },
+	{
+            'username': 'muziriana',
+            'uid': '6058023',
+            'fname': 'Kelvin',
+            'lname': 'Mathew K',
+            'fullname': 'Kelvin Geo Mathew K',
+            'github': 'muzirian'
+        },
+	{
+            'username': 'bhavana naga',
+            'uid': '5677293',
+            'fname': 'Bhavana',
+            'lname': 'Lingineni',
+            'fullname': 'Bhavana Lingineni',
+            'github': 'bhavana-naga'
+        },
+	{
+            'username': 'marthaleena',
+            'uid': '5659851',
+            'fname': 'Martha',
+            'lname': 'Bonula',
+            'fullname': 'Martha Bonula',
+            'github': 'Marthaleena'
+        },
     ]
 };
