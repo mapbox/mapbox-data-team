@@ -108,7 +108,7 @@ module.exports = {
             'username': 'calfarome',
             'uid': '2511706',
             'fname': 'Cesar',
-		
+
             'lname': 'Alfaro',
             'fullname': 'Cesar Alfaro',
             'github': 'calfarome',
@@ -457,5 +457,13 @@ module.exports = {
             'fullname': 'Martha Bonula',
             'github': 'Marthaleena'
         },
+   {
+            'username': 'oormila',
+            'uid': '5438123',
+            'fname': 'Oormila',
+            'lname': 'Vinod',
+            'fullname': 'Oormila Vinod',
+            'github': 'oormilavinod'
+         },
     ]
 };
