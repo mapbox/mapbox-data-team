@@ -465,5 +465,13 @@ module.exports = {
             'fullname': 'Oormila Vinod',
             'github': 'oormilavinod'
          },
+   {
+            'username': 'Minh Nguyen',
+            'uid': '33757',
+            'fname': 'Minh',
+            'lname': 'Nguyen',
+            'fullname': 'Minh Nguyen',
+            'github': '1ec5'
+         }
     ]
 };
