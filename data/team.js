@@ -458,7 +458,7 @@ module.exports = {
             'github': 'Marthaleena'
         },
    {
-            'username': 'oormila',
+            'username': 'oormilavinod',
             'uid': '5438123',
             'fname': 'Oormila',
             'lname': 'Vinod',
