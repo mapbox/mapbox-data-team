@@ -255,6 +255,15 @@ module.exports = {
                 {'uid': '4222212', 'username': 'nammala_labuildings'}
             ]
         },
+	{
+            'username': 'MichaelSteffen',
+            'uid': '2488002',
+            'fname': 'Michael',
+            'lname': 'Steffen',
+            'fullname': 'Michael Steffen',
+            'github': 'michaelsteffen',
+            'other_accounts': []
+        }, 
         {
             'username': 'nikhilprabhakar',
             'uid': '2835928',
