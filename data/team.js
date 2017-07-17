@@ -3,17 +3,6 @@
 module.exports = {
     'team': [
         {
-            'username': 'Aaron Lidman',
-            'uid': '53073',
-            'fname': 'Aaron',
-            'lname': 'Lidman',
-            'fullname': 'Aaron Lidman',
-            'github': 'aaronlidman',
-            'other_accounts': [
-                {'username': 'aaron_imports', 'uid': '3685554'}
-            ]
-        },
-        {
             'username': 'aarthy',
             'uid': '2985232',
             'fname': 'Aarthy',
