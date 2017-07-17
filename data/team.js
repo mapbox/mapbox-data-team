@@ -261,8 +261,7 @@ module.exports = {
             'fname': 'Michael',
             'lname': 'Steffen',
             'fullname': 'Michael Steffen',
-            'github': 'michaelsteffen',
-            'other_accounts': []
+            'github': 'michaelsteffen'
         }, 
         {
             'username': 'nikhilprabhakar',
