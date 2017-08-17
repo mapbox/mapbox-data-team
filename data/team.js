@@ -469,6 +469,30 @@ module.exports = {
             'lname': 'Nguyen',
             'fullname': 'Minh Nguyen',
             'github': '1ec5'
+         },
+         {
+            'username': 'ian29',
+            'uid': '401102',
+            'fname': 'Ian',
+            'lname': 'Villeda',
+            'fullname': 'Ian Villeda',
+            'github': 'ian29'
+         },
+         {
+            'username': 'lukasmartinelli',
+            'uid': '3133772',
+            'fname': 'Lukas',
+            'lname': 'Martinelli',
+            'fullname': 'Lukas Martinelli',
+            'github': 'lukasmartinelli'
+         },
+         {
+            'username': 'ajashton',
+            'uid': '135329',
+            'fname': 'Ashton',
+            'lname': 'AJ',
+            'fullname': 'AJ',
+            'github': 'ajashton'
          }
     ]
 };
