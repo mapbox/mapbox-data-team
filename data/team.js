@@ -509,6 +509,14 @@ module.exports = {
             'lname': 'Patterson',
             'fullname': 'Daniel Patterson'
             'github': 'danpat'
+         },
+	 {
+            'username': 'ghoshkaj',
+            'uid': '1990029',
+            'fname': 'Kajari',
+            'lname': 'Ghosh',
+            'fullname': 'Kajari Ghosh'
+            'github': 'ghoshkaj'
          }
     ]
 };
