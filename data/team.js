@@ -493,6 +493,22 @@ module.exports = {
             'lname': 'AJ',
             'fullname': 'AJ',
             'github': 'ajashton'
+         },
+         {
+            'username': 'miccolis',
+            'uid': '609808',
+            'fname': 'Jeff',
+            'lname': 'Miccolis',
+            'fullname': 'Jeff Miccolis',
+            'github': 'miccolis'
+         },
+         {
+            'username': 'mapboxdan',
+            'uid': '3014931',
+            'fname': 'Daniel',
+            'lname': 'Patterson',
+            'fullname': 'Daniel Patterson'
+            'github': 'danpat'
          }
     ]
 };
