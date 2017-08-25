@@ -507,7 +507,7 @@ module.exports = {
             'uid': '3014931',
             'fname': 'Daniel',
             'lname': 'Patterson',
-            'fullname': 'Daniel Patterson'
+            'fullname': 'Daniel Patterson',
             'github': 'danpat'
          },
 	 {
@@ -515,7 +515,7 @@ module.exports = {
             'uid': '1990029',
             'fname': 'Kajari',
             'lname': 'Ghosh',
-            'fullname': 'Kajari Ghosh'
+            'fullname': 'Kajari Ghosh',
             'github': 'ghoshkaj'
          },
 	 {
@@ -525,6 +525,14 @@ module.exports = {
 	    'lname': 'Whittemore',
 	    'fullname': 'Matthew Whittemore',
 	    'github': 'mcwhittemore'
+	 },
+	 {
+	    'username': 'allierowan',
+	    'uid': '4978704',
+	    'fname': 'Allie',
+	    'lname': 'Rowan',
+	    'fullname': 'Allie Rowan',
+	    'github': 'allierowan'
 	 }
     ]
 };
