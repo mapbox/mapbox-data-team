@@ -517,6 +517,14 @@ module.exports = {
             'lname': 'Ghosh',
             'fullname': 'Kajari Ghosh'
             'github': 'ghoshkaj'
-         }
+         },
+	 {
+	    'username': 'mcwhittemore',
+	    'uid': '3321521',
+	    'fname': 'Matthew',
+	    'lname': 'Whittemore',
+	    'fullname': 'Matthew Whittemore',
+	    'github': 'mcwhittemore'
+	 }
     ]
 };
