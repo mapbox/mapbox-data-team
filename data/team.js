@@ -255,7 +255,7 @@ module.exports = {
                 {'uid': '4222212', 'username': 'nammala_labuildings'}
             ]
         },
-	{
+        {
             'username': 'MichaelSteffen',
             'uid': '2488002',
             'fname': 'Michael',
@@ -414,7 +414,7 @@ module.exports = {
                 {'username': 'upendra_sfimport', 'uid': '4893041'}
             ]
         },
-	{
+        {
             'username': 'Bhojaraj',
             'uid': '4647004',
             'fname': 'Bhojaraj',
@@ -422,7 +422,7 @@ module.exports = {
             'fullname': 'Bhojaraj Basavangowdara',
             'github': 'bhojaraj'
         },
-	{
+        {
             'username': 'ashleyannmathew',
             'uid': '4994101',
             'fname': 'Ashley',
@@ -430,7 +430,7 @@ module.exports = {
             'fullname': 'Ashley Ann Mathew',
             'github': 'ashleyannmathew'
         },
-	{
+        {
             'username': 'muziriana',
             'uid': '6058023',
             'fname': 'Kelvin',
@@ -438,7 +438,7 @@ module.exports = {
             'fullname': 'Kelvin Geo Mathew K',
             'github': 'muzirian'
         },
-	{
+        {
             'username': 'bhavana naga',
             'uid': '5677293',
             'fname': 'Bhavana',
@@ -446,7 +446,7 @@ module.exports = {
             'fullname': 'Bhavana Lingineni',
             'github': 'bhavana-naga'
         },
-	{
+        {
             'username': 'marthaleena',
             'uid': '5659851',
             'fname': 'Martha',
@@ -454,85 +454,85 @@ module.exports = {
             'fullname': 'Martha Bonula',
             'github': 'Marthaleena'
         },
-   {
+        {
             'username': 'oormilavinod',
             'uid': '5438123',
             'fname': 'Oormila',
             'lname': 'Vinod',
             'fullname': 'Oormila Vinod',
             'github': 'oormilavinod'
-         },
-   {
+        },
+        {
             'username': 'Minh Nguyen',
             'uid': '33757',
             'fname': 'Minh',
             'lname': 'Nguyen',
             'fullname': 'Minh Nguyen',
             'github': '1ec5'
-         },
-         {
+        },
+        {
             'username': 'ian29',
             'uid': '401102',
             'fname': 'Ian',
             'lname': 'Villeda',
             'fullname': 'Ian Villeda',
             'github': 'ian29'
-         },
-         {
+        },
+        {
             'username': 'lukasmartinelli',
             'uid': '3133772',
             'fname': 'Lukas',
             'lname': 'Martinelli',
             'fullname': 'Lukas Martinelli',
             'github': 'lukasmartinelli'
-         },
-         {
+        },
+        {
             'username': 'ajashton',
             'uid': '135329',
             'fname': 'Ashton',
             'lname': 'AJ',
             'fullname': 'AJ',
             'github': 'ajashton'
-         },
-         {
+        },
+        {
             'username': 'miccolis',
             'uid': '609808',
             'fname': 'Jeff',
             'lname': 'Miccolis',
             'fullname': 'Jeff Miccolis',
             'github': 'miccolis'
-         },
-         {
+        },
+        {
             'username': 'mapboxdan',
             'uid': '3014931',
             'fname': 'Daniel',
             'lname': 'Patterson',
             'fullname': 'Daniel Patterson',
             'github': 'danpat'
-         },
-	 {
+        },
+        {
             'username': 'ghoshkaj',
             'uid': '1990029',
             'fname': 'Kajari',
             'lname': 'Ghosh',
             'fullname': 'Kajari Ghosh',
             'github': 'ghoshkaj'
-         },
-	 {
-	    'username': 'mcwhittemore',
-	    'uid': '3321521',
-	    'fname': 'Matthew',
-	    'lname': 'Whittemore',
-	    'fullname': 'Matthew Whittemore',
-	    'github': 'mcwhittemore'
-	 },
-	 {
-	    'username': 'allierowan',
-	    'uid': '4978704',
-	    'fname': 'Allie',
-	    'lname': 'Rowan',
-	    'fullname': 'Allie Rowan',
-	    'github': 'allierowan'
-	 }
+        },
+        {
+            'username': 'mcwhittemore',
+            'uid': '3321521',
+            'fname': 'Matthew',
+            'lname': 'Whittemore',
+            'fullname': 'Matthew Whittemore',
+            'github': 'mcwhittemore'
+        },
+        {
+            'username': 'allierowan',
+            'uid': '4978704',
+            'fname': 'Allie',
+            'lname': 'Rowan',
+            'fullname': 'Allie Rowan',
+            'github': 'allierowan'
+        }
     ]
 };
