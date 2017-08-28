@@ -533,6 +533,14 @@ module.exports = {
             'lname': 'Rowan',
             'fullname': 'Allie Rowan',
             'github': 'allierowan'
+        },
+        {
+            'username': 'daniel-j-h',
+            'uid': '214135',
+            'fname': 'Daniel',
+            'lname': 'Hofmann',
+            'fullname': 'Daniel Hofmann',
+            'github': 'daniel-j-h'
         }
     ]
 };
