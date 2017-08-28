@@ -493,6 +493,46 @@ module.exports = {
             'lname': 'AJ',
             'fullname': 'AJ',
             'github': 'ajashton'
-         }
+         },
+         {
+            'username': 'miccolis',
+            'uid': '609808',
+            'fname': 'Jeff',
+            'lname': 'Miccolis',
+            'fullname': 'Jeff Miccolis',
+            'github': 'miccolis'
+         },
+         {
+            'username': 'mapboxdan',
+            'uid': '3014931',
+            'fname': 'Daniel',
+            'lname': 'Patterson',
+            'fullname': 'Daniel Patterson',
+            'github': 'danpat'
+         },
+	 {
+            'username': 'ghoshkaj',
+            'uid': '1990029',
+            'fname': 'Kajari',
+            'lname': 'Ghosh',
+            'fullname': 'Kajari Ghosh',
+            'github': 'ghoshkaj'
+         },
+	 {
+	    'username': 'mcwhittemore',
+	    'uid': '3321521',
+	    'fname': 'Matthew',
+	    'lname': 'Whittemore',
+	    'fullname': 'Matthew Whittemore',
+	    'github': 'mcwhittemore'
+	 },
+	 {
+	    'username': 'allierowan',
+	    'uid': '4978704',
+	    'fname': 'Allie',
+	    'lname': 'Rowan',
+	    'fullname': 'Allie Rowan',
+	    'github': 'allierowan'
+	 }
     ]
 };
