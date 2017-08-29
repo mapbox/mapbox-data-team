@@ -3,6 +3,25 @@
 module.exports = {
     'team': [
         {
+            'username': 'ingalls',
+            'uid': '305985',
+            'fname': 'Nick',
+            'lname': 'Ingalls',
+            'fullname': 'Nicholas Ingalls',
+            'github': 'ingalls',
+            'other_accounts': [
+                {'username': 'ingalls_imports', 'uid': '1137518'}
+            ]
+        },
+        {
+            'username': 'Tom Lee',
+            'uid': '1323352',
+            'fname': 'Tom',
+            'lname': 'Lee',
+            'fullname': 'Tom Lee',
+            'github': 'sbma44'
+        },
+        {
             'username': 'aarthy',
             'uid': '2985232',
             'fname': 'Aarthy',
@@ -262,7 +281,7 @@ module.exports = {
             'lname': 'Steffen',
             'fullname': 'Michael Steffen',
             'github': 'michaelsteffen'
-        }, 
+        },
         {
             'username': 'nikhilprabhakar',
             'uid': '2835928',
