@@ -560,6 +560,46 @@ module.exports = {
             'lname': 'Hofmann',
             'fullname': 'Daniel Hofmann',
             'github': 'daniel-j-h'
+        },
+        {
+            'username': 'ranjithjoy',
+            'uid': '5623648',
+            'fname': 'Ranjith',
+            'lname': 'Joy',
+            'fullname': 'Ranjith Joy',
+            'github': 'ranjithjoy'
+         },
+         {
+           'username': 'TeresaPeteti',
+           'uid': '5648480',
+           'fname': 'Peteti',
+           'lname': 'Teresa',
+           'fullname': 'Peteti Chanda Teresa',
+           'github': 'teresapeteti'
+         },
+         {
+           'username': 'Teesta',
+           'uid': '6443638',
+           'fname': 'Teesta',
+           'lname': 'Sinha Ray',
+           'fullname': 'Teesta Sinha Ray',
+           'github': 'teestasr'
+        },
+        {
+           'username': 'Iqhra',
+           'uid': '6371645',
+           'fname': 'Iqhra',
+           'lname': 'Aiman',
+           'fullname': 'Iqhra Aiman',
+           'github': 'iqhra19'
+         },
+         {
+           'username': 'venkanna37',
+           'uid': '5680733',
+           'fname': 'Venkanna',
+           'lname': 'Guthula',
+           'fullname': 'Venkanna Guthula',
+           'github': 'venkanna37'
         }
     ]
 };
