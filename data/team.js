@@ -600,6 +600,14 @@ module.exports = {
            'lname': 'Guthula',
            'fullname': 'Venkanna Guthula',
            'github': 'venkanna37'
-        }
+        },
+         {
+ +            'username': 'lmcslssslsssl',
+ +            'uid': '____UNSURE_OF_UID__',
+ +            'fname': 'Langston',
+ +            'lname': 'Smith',
+ +            'fullname': 'Langston Smith',
+ +            'github': 'langsmith'
+ +         },
     ]
 };
