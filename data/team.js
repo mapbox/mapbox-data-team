@@ -417,7 +417,7 @@ module.exports = {
                 {'username': 'upendra_sfimport', 'uid': '4893041'}
             ]
         },
-	{
+        {
             'username': 'Bhojaraj',
             'uid': '4647004',
             'fname': 'Bhojaraj',
@@ -425,7 +425,7 @@ module.exports = {
             'fullname': 'Bhojaraj Basavangowdara',
             'github': 'bhojaraj'
         },
-	{
+        {
             'username': 'ashleyannmathew',
             'uid': '4994101',
             'fname': 'Ashley',
@@ -433,7 +433,7 @@ module.exports = {
             'fullname': 'Ashley Ann Mathew',
             'github': 'ashleyannmathew'
         },
-	{
+        {
             'username': 'muziriana',
             'uid': '6058023',
             'fname': 'Kelvin',
@@ -441,7 +441,7 @@ module.exports = {
             'fullname': 'Kelvin Geo Mathew K',
             'github': 'muzirian'
         },
-	{
+        {
             'username': 'bhavana naga',
             'uid': '5677293',
             'fname': 'Bhavana',
@@ -449,7 +449,7 @@ module.exports = {
             'fullname': 'Bhavana Lingineni',
             'github': 'bhavana-naga'
         },
-	{
+        {
             'username': 'marthaleena',
             'uid': '5659851',
             'fname': 'Martha',
@@ -457,7 +457,7 @@ module.exports = {
             'fullname': 'Martha Bonula',
             'github': 'Marthaleena'
         },
-   {
+        {
             'username': 'oormilavinod',
             'uid': '5438123',
             'fname': 'Oormila',
@@ -465,7 +465,7 @@ module.exports = {
             'fullname': 'Oormila Vinod',
             'github': 'oormilavinod'
          },
-   {
+         {
             'username': 'Minh Nguyen',
             'uid': '33757',
             'fname': 'Minh',
@@ -473,7 +473,7 @@ module.exports = {
             'fullname': 'Minh Nguyen',
             'github': '1ec5'
          },
-    {
+         {
             'username': 'ranjithjoy',
             'uid': '5623648',
             'fname': 'Ranjith',
@@ -481,7 +481,7 @@ module.exports = {
             'fullname': 'Ranjith Joy',
             'github': 'ranjithjoy'
          },
-     {
+         {
            'username': 'TeresaPeteti',
            'uid': '5648480',
            'fname': 'Peteti',
@@ -489,7 +489,7 @@ module.exports = {
            'fullname': 'Peteti Chanda Teresa',
            'github': 'teresapeteti'
          },
-     {
+         {
            'username': 'Teesta',
            'uid': '6443638',
            'fname': 'Teesta',
@@ -497,7 +497,7 @@ module.exports = {
            'fullname': 'Teesta Sinha Ray',
            'github': 'teestasr'
         },
-     {
+        {
            'username': 'Iqhra',
            'uid': '6371645',
            'fname': 'Iqhra',
@@ -505,14 +505,13 @@ module.exports = {
            'fullname': 'Iqhra Aiman',
            'github': 'iqhra19'
          },
-     {
+         {
            'username': 'venkanna37',
            'uid': '5680733',
            'fname': 'Venkanna',
            'lname': 'Guthula',
            'fullname': 'Venkanna Guthula',
            'github': 'venkanna37'
-        }
-
+         }
     ]
 };
