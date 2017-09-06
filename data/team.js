@@ -608,6 +608,14 @@ module.exports = {
            'lname': 'Guthula',
            'fullname': 'Venkanna Guthula',
            'github': 'venkanna37'
+        },
+        {
+           'username': 'friedbunny',
+           'uid': '643374',
+           'fname': 'Jason',
+           'lname': 'Wray',
+           'fullname': 'Jason Wray',
+           'github': 'friedbunny'
         }
     ]
 };
