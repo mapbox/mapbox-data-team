@@ -603,11 +603,11 @@ module.exports = {
         },
          {
  +            'username': 'lmcslssslsssl',
- +            'uid': '____UNSURE_OF_UID__',
+ +            'uid': '5789664',
  +            'fname': 'Langston',
  +            'lname': 'Smith',
  +            'fullname': 'Langston Smith',
  +            'github': 'langsmith'
- +         },
+ +         }
     ]
 };
