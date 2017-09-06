@@ -283,6 +283,14 @@ module.exports = {
             'github': 'michaelsteffen'
         },
         {
+            'username': 'mikelmaron',
+            'uid': '999',
+            'fname': 'Mikel',
+            'lname': 'Maron',
+            'fullname': 'Mikel Maron',
+            'github': 'mikelmaron'
+        },
+        {
             'username': 'nikhilprabhakar',
             'uid': '2835928',
             'fname': 'Nikhil',
