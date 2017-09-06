@@ -283,6 +283,14 @@ module.exports = {
             'github': 'michaelsteffen'
         },
         {
+            'username': 'mikelmaron',
+            'uid': '999',
+            'fname': 'Mikel',
+            'lname': 'Maron',
+            'fullname': 'Mikel Maron',
+            'github': 'mikelmaron'
+        },
+        {
             'username': 'nikhilprabhakar',
             'uid': '2835928',
             'fname': 'Nikhil',
@@ -608,6 +616,14 @@ module.exports = {
  +            'lname': 'Smith',
  +            'fullname': 'Langston Smith',
  +            'github': 'langsmith'
- +         }
+ +         },
+        {
+           'username': 'friedbunny',
+           'uid': '643374',
+           'fname': 'Jason',
+           'lname': 'Wray',
+           'fullname': 'Jason Wray',
+           'github': 'friedbunny'
+        }
     ]
 };
