@@ -134,7 +134,7 @@ See  [tests](https://github.com/mapbox/mapbox-data-team/blob/master/tests/test.j
     'fullname': '<fullname as on http://mapbox.com/team/>'
 }
 ```
-* Locate where your name needs to go in https://github.com/mapbox/mapbox-data-team/blob/master/data/team.js. The objects are arranged alphabetically by `fullname`. Place the object with your details at that place.
+* Add your object to https://github.com/mapbox/mapbox-data-team/blob/master/data/team.js. 
 * If your name is NOT the last name in the list, add a comma after the object like:
 ```
 {
