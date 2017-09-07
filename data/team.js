@@ -610,6 +610,14 @@ module.exports = {
            'github': 'venkanna37'
         },
         {
+            'username': 'lmcslssslsssl',
+            'uid': '5789664',
+            'fname': 'Langston',
+            'lname': 'Smith',
+            'fullname': 'Langston Smith',
+            'github': 'langsmith'
+        },
+        {
            'username': 'friedbunny',
            'uid': '643374',
            'fname': 'Jason',
