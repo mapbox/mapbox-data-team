@@ -3,6 +3,14 @@
 module.exports = {
     'team': [
         {
+            'username': 'KaiBot3000',
+            'uid': '3461324',
+            'fname': 'Kai',
+            'lname': 'Dalgleish',
+            'fullname': 'Kai Dalgleish',
+            'github': 'KaiBot3000'
+        },
+        {
             'username': 'ingalls',
             'uid': '305985',
             'fname': 'Nick',
