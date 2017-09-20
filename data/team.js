@@ -624,7 +624,7 @@ module.exports = {
            'lname': 'Wray',
            'fullname': 'Jason Wray',
            'github': 'friedbunny'
-        }
+        },
         {
             'username': 'Will White',
             'uid': '97411',
@@ -633,6 +633,5 @@ module.exports = {
             'fullname': 'Will White',
             'github': 'willwhite'
          }
-
     ]
 };
