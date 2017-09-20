@@ -625,5 +625,14 @@ module.exports = {
            'fullname': 'Jason Wray',
            'github': 'friedbunny'
         }
+        {
+            'username': 'Will White',
+            'uid': '97411',
+            'fname': 'Will',
+            'lname': 'White',
+            'fullname': 'Will White',
+            'github': 'willwhite'
+         }
+
     ]
 };
