@@ -624,6 +624,15 @@ module.exports = {
            'lname': 'Wray',
            'fullname': 'Jason Wray',
            'github': 'friedbunny'
+        },
+        //Mapbox Machine user - not a real person
+        {
+          'username': 'mapbox-machine',
+          'uid': '6783753',
+          'fname': 'Mapbox',
+          'lname': 'Machine',
+          'fullname': 'Mapbox Machine',
+          'github': ''
         }
     ]
 };
