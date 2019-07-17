@@ -1,3 +1,10 @@
+![deprecated](https://c1.staticflickr.com/5/4396/36704337791_4268261089_n.jpg)
+
+This npm module is no longer maintained. Mapbox keeps https://wiki.openstreetmap.org/wiki/Mapbox up to date instead.
+
+---
+
+
 # data-team
 Quickly get a list of OSM usernames or OSM user IDs of the Mapbox Data Team using this module.
 
